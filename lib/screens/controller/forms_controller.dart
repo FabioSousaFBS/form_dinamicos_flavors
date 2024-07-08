@@ -133,26 +133,6 @@ class FormularioState extends ValueNotifier<FormularioController> {
 
     value = CarregandoFormularioController();
 
-    // DioClientImplementation dio = DioClientImplementation();    
-    
-    // var response = await dio.get(
-    //   url: "${GlobalVariables().urlBase}${Constants.endpointLogin}",      
-    //   dataParameters: {
-    //     "email": "dev10@harmonit.com.br",
-    //     "password": "string",
-    //     "ip": "string",
-    //     "languageId": 1,
-    //     "applicationId": 3
-    //   }
-    // );
-
-    // if (response.statusCode == 200) {
-    //   GlobalVariables().token = response.data['value']['result']['token'] ?? "";
-    // } else {
-    //   errorMessage.value = "Algo deu errado na requisição";
-    //   notifyListeners();
-    // }
-
     try {
 
       for (var e in listForm["fields"]!) { 

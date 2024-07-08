@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 void main() async {
 
-  GlobalVariables().urlBase = "http://vmbees02.brazilsouth.cloudapp.azure.com:1150/";
+  GlobalVariables().urlBase = "";
 
   await PreLoading.obterThema();
 
