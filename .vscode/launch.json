@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "e-commerce",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_flavors/main_ecommerce.dart",
+            "args": [
+                "--flavor",
+                "harmonecommerce",
+            ]
+        },
+        {
+            "name": "Erp",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_flavors/main_erp.dart",
+            "args": [
+                "--flavor",
+                "harmonerp",
+            ]
+        },
+    ]
+}
